@@ -13,3 +13,6 @@ def test_app():
 
 def test_addition():
     assert Calculator().addition(2, 3) == 5
+
+def test_addition_erreur_volontaire():
+    assert Calculator().addition(2, 3) == 99  # erreur volontaire : le résultat attendu est faux
