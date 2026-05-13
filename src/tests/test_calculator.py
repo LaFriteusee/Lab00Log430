@@ -15,4 +15,17 @@ def test_addition():
     assert Calculator().addition(2, 3) == 5
 
 def test_addition_erreur_volontaire():
-    assert Calculator().addition(2, 3) == 99  # erreur volontaire : le résultat attendu est faux
+    assert Calculator().addition(2, 3) == 99 
+
+def test_soustraction():
+    assert Calculator().subtraction(10, 2) == 8
+
+def test_multiplication():
+    assert Calculator().multiplication(5, 3) == 15
+
+def test_division():
+    assert Calculator().division(10, 2) == 5
+
+def test_division_reste():
+    assert Calculator().division(5, 2) == 2.5
+    
