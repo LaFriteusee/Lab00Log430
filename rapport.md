@@ -31,7 +31,7 @@ def test_addition_erreur_volontaire():
 
 ### Sortie du terminal
 
-![alt text](image.png)
+![alt text](/Image/image.png)
 
 ---
 
@@ -50,7 +50,7 @@ L'étape **Set up job** est automatiquement ajoutée par GitHub Actions au débu
 - Prépare le répertoire de travail du workflow.
 - Télécharge les actions nécessaires (`actions/checkout@v3` et `actions/setup-python@v4`) afin de les préparer pour les prochaines étapes dont Checkout dépôt.
 
-![Set up job](image-1.png)
+![Set up job](/Image/image-1.png)
 
 #### Checkout dépôt
 
@@ -61,8 +61,8 @@ L'étape **Checkout dépôt** utilise l'action `actions/checkout@v3`. Son rôle 
 - Télécharge le code source depuis GitHub (` /usr/bin/git -c protocol.version=2 fetch --no-tags --prune --progress --no-recurse-submodules --depth=1 origin +b349a6a2f133ee38a6533377b2523b36281ee9c3:refs/remotes/origin/main` ligne 49).
 - Se positionne sur la bonne branche (`/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main` ligne 125).
 
-![Checkout dépôt - partie 1](image-2.png)
-![Checkout dépôt - partie 2](image-3.png)
+![Checkout dépôt - partie 1](/Image/image-2.png)
+![Checkout dépôt - partie 2](/Image/image-3.png)
 
 ---
 
@@ -96,4 +96,4 @@ Chaque ligne correspond à un processus actif. Les colonnes principales sont :
 le système roule sur le PID 1 sur l'utilisateur root qui est admin du système. ont peut voir qu'il utilise 0% du cpu donc très faible utilisation ainsi que 0.3% de la mémoire ce qui est très fiable aussi
 ### Sortie du terminal
 
-![alt text](image-4.png)
+![alt text](/Image/image-4.png)
