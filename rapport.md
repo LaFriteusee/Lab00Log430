@@ -4,6 +4,7 @@
 
 **Étudiant : Thomas Journault**  
 **Date : 11 mai 2026**  
+**Dépôt GitHub : [https://github.com/LaFriteusee/Lab00Log430](https://github.com/LaFriteusee/Lab00Log430)**  
 
 ---
 
